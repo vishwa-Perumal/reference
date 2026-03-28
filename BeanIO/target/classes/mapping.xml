@@ -1,0 +1,11 @@
+<beanio xmlns="http://www.beanio.org/2012/03">
+
+<stream name="stream1" format="csv">
+<record name="employee" class="BeanIO.Employee" >
+<field name = "id"/>
+<field name = "name"/>
+<field name = "role"/>
+</record>
+ </stream>
+
+</beanio>
